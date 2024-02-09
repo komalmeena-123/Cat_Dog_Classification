@@ -1,0 +1,39 @@
+File Classify Wavelet
+
+Eksekusi 
+1. test_cat_dog_1.m
+2. test_load_exc.m (yang bisa)
+
+Function
+1. waveFDA.m
+2. wavelet.m
+3. FDA.m
+
+jalur
+1. test_load_exc.m
+2. test_load_exc.m manggil waveFDA.m 
+2. waveFDA.m  manggil wavelet.m dan FDA.m
+=================================
+File Classify Lapician
+
+Eksekusi 
+1. test_cat_dog_2.m
+2. test_load_exc_2.m (yang bisa)
+
+Function
+1. maskFDA.m
+2. mask.m
+
+jalur
+1. test_load_exc_2.m
+2. test_load_exc_2.m manggil maskFDA.m
+2. waveFDA.m  manggil mask.m
+
+==================================
+
+File jadi1_wavelet.m buat cek kalau semua fungsi dijadiin 1 file. note (masih error di SVD)
+
+File tester_exec.m buat nge-resize 64x64 pixel dan ngesave ke file yg baru
+//resize_64.m nggak digunain
+
+**Dataset ada di folder "dataset"
