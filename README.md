@@ -6,6 +6,7 @@ Using Edge Detection > PCA > FDA
 
 # Files
 ==============================================================
+
 With Wavelet
 
 Main Program
@@ -26,6 +27,7 @@ Workflow
 
 
 ==============================================================
+
 With Lapician Filter
 
 Main Program
